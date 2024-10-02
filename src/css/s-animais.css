@@ -7,6 +7,13 @@
     opacity: 1;
 }
 
+.raposa, .esquilo, .urso, .lobo, .macaco, .leao {
+    display: none;
+}
+.raposa.active, .esquilo.active, .urso.active, .lobo.active, .macaco.active, .leao.active{
+    display: block;
+}
+
 @keyframes anim {
     0% {
         transform: translate3d(-150px, 0, 0);
@@ -67,13 +74,13 @@
     object-fit: cover;
 }
 
-.content-animais div > h4 {
+.content-animais section > h4 {
     color: orangered;
     display: flex;
     align-items: center;
     gap: 5px;
 }
-.content-animais div > h4::before{
+.content-animais section > h4::before{
     content: '';
     width: 35px;
     height: 8px;

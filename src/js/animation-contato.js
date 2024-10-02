@@ -2,7 +2,6 @@ const contato = document.querySelector('#contato');
 
 const animContato = () => {
     const scroolPosition = window.scrollY; 
-    console.log(scroolPosition);
     if (scroolPosition > 750) {
         contato.classList.add('active-contatos');
     } else {

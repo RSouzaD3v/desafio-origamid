@@ -2,7 +2,6 @@ const accordion = document.querySelector('#accordion');
 
 const animAccordion = () => {
     const scroolPosition = window.scrollY; 
-    console.log(scroolPosition);
     if (scroolPosition > 284) {
         accordion.classList.add('active-accordion');
     } else {
