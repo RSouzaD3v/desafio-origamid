@@ -1,0 +1,32 @@
+header{
+    background-color: #FB5;
+    color: black;
+    padding: 4px;
+    width: 75%;
+    right: 0;
+    top: 2rem;
+    position: absolute;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li{
+    list-style: none;
+    margin: 15px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+@media screen and (max-width: 769px) {
+    header{
+        width: 100%;
+        top: 0;
+    }
+}
