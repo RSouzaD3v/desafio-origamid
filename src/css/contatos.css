@@ -57,7 +57,7 @@
         display: flex;
         flex-wrap: wrap;
         gap: 10px;
-        padding: 60px;
+        padding: 5px;
     }   
 
     .contatos h1{

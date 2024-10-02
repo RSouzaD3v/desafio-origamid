@@ -66,4 +66,7 @@
     .accordion h1{
         font-size: 3rem;
     }
+    .accordions-itens {
+        padding: 5px;
+    }
 }
