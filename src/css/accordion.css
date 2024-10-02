@@ -1,6 +1,14 @@
 /* Estilo básico para o accordion */
 .accordion {
     border-radius: 4px;
+    transform: translate3d(-50px, 0, 0);
+    opacity: 0;
+}
+
+.accordion.active-accordion{
+    opacity: 1;
+    transform: translate3d(0px, 0, 0);
+    transition: 1s all;
 }
 
 .accordion h1{
@@ -13,7 +21,7 @@
 }
 
 .accordions-itens {
-    padding: 75px;
+    padding: 60px;
 }
 .accordion-item{
     margin-bottom: 10px;

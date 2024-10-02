@@ -21,7 +21,7 @@
     display: flex;
     gap: 15px;
     align-items: start;
-    padding: 10px 115px;
+    padding: 10px 60px;
 }
 
 .animais h1{
@@ -99,6 +99,25 @@
         transform: translate3d(0px, 0, 0);
     }100% {
         transform: translate3d(10px, 0, 0);
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .animais h1{
+        font-size: 3rem;
+        line-height: 1;
+        margin-bottom: 15px;
+    }
+    .flex-animais{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        align-items: start;
+        padding: 10px 60px;
+    }
+
+    .raposa{
+        max-width: 360px;
     }
 }
 

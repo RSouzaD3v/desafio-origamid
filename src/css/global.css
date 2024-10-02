@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body, html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Helvetica', Arial, sans-serif;
     padding-left: calc(100% / 5);
@@ -11,5 +15,5 @@ body{
 }
 
 @media screen and (max-width: 769px) {
-    body{padding-left: 10px;}
+    body{padding-left: 0px;}
 }
